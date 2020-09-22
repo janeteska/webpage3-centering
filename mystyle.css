@@ -1,0 +1,45 @@
+body{
+  display: flex;
+  justify-content: center;
+  background: #8153A0
+}
+
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+h1 {
+  text-shadow: 2px 2px 5px #642295;
+}
+
+#container{
+position: relative;
+top: 100px;
+width: 500px;
+
+}
+
+#content-box{
+  background: white;
+  padding: 25px;
+  margin-bottom: 15px;
+}
+
+ul {
+  position: relative;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  background: #FFF;
+  padding: 15px;
+}
+
+a:hover{
+  background: #D8A1FB
+}
